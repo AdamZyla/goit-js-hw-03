@@ -1,6 +1,7 @@
 /*Zadanie 2. Kompozycja tablic*/
 
 function makeArray(firstArray, secondArray, maxLength) {
+  
     const newArray = [...firstArray, ...secondArray];
   
     if (newArray.length >= maxLength) {
